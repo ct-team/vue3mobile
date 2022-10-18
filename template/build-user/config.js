@@ -5,31 +5,31 @@ module.exports = {
   list: [
     {
       title: '1505-stable',
-      url: '//staticadm.tcy365.org:1505',
+      url: '//static.tcy365.org:1505',
       mode: 'stable',
       env: 1505,
     },
     {
       title: '1507-test',
-      url: '//staticadm.tcy365.org:1507',
+      url: '//static.tcy365.org:1507',
       mode: 'ctest',
       env: 1507,
     },
     {
       title: '1506-develop',
-      url: '//staticadm.tcy365.org:1506',
+      url: '//static.tcy365.org:1506',
       mode: 'dev',
       env: 1506,
     },
     {
       title: '2505-pre',
-      url: '//staticadm.tcy365.com:2505',
+      url: '//static.tcy365.com:2505',
       mode: 'pre',
       env: 2505,
     },
     {
       title: '80-static',
-      url: '//staticadm.tcy365.com',
+      url: '//static.tcy365.com',
       mode: 'production',
       env: 'production',
     },
