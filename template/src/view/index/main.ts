@@ -1,5 +1,5 @@
 import '@/assets/js/path'; //设置__webpack_public_path__
-import '@/assets/css/reset.css';
+import 'nat-plus/es/reset/reset.css';
 import { createApp } from 'vue';
 import App from './App.vue';
 import router from '@/router';

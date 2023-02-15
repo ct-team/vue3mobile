@@ -12,7 +12,7 @@ VUE_APP_ENV = pre; //vue 当前可用环境 开发代码可用
 
 ## crlf
 
-使用 `npm run line --fix` 可以批量解决 delete cr 错误
+使用 `npm run lint --fix` 可以批量解决 delete cr 错误
 
 ## global.d.ts
 

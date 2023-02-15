@@ -16,7 +16,7 @@
     "axios": "^0.27.2",
     "core-js": "^3.6.5",
     "mitt": "^3.0.0",
-    "nat-plus": "^0.0.5",
+    "nat-plus": "^0.2.1",
     "vant": "^3.6.4",
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0",
