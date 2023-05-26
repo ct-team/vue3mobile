@@ -82,7 +82,7 @@
         <a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a>
       </li>
     </ul>
-    <h3>Ecosystem</h3>
+    <h3 class="van-ttt">Ecosystem</h3>
     <ul>
       <li>
         <a href="https://router.vuejs.org" target="_blank" rel="noopener">
@@ -140,5 +140,8 @@ li {
 }
 a {
   color: #42b983;
+}
+.van-ttt {
+  width: 20px;
 }
 </style>

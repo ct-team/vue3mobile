@@ -28,6 +28,7 @@ function getPublicPath() {
 }
 module.exports = {
   //lintOnSave: true,
+  transpileDependencies: [/node_modules/],
   pages: buildTool.getPages(env),
   publicPath: getPublicPath(),
   outputDir: 'dist',

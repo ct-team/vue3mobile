@@ -8,13 +8,20 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue';
+import { ref, ComponentInternalInstance } from 'vue';
 import HelloWorld from '../components/HelloWorld.vue';
 
 import { testApi } from '@/api/index';
+import { getCurrentInstance } from 'vue';
 
+const { appContext } = getCurrentInstance() as ComponentInternalInstance;
+const proxy = appContext.config.globalProperties;
+
+const getmsg = () => {
+  console.log(proxy.$nat);
+};
 let http = ref('');
-
+getmsg();
 const title = process.env.VUE_APP_TITLE;
 function onTest() {
   testApi()

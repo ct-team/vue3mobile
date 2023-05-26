@@ -38,6 +38,10 @@ module.exports = {
     rootValue: 100, // 换算的基数
     selectorBlackList: ['van-'], // 忽略转换正则匹配项 ['van-']
     propList: ['*'],
+    unitPrecision: 6,
+    mediaQuery: true,
+    replace: true,
+    exclude: /node_modules/,
   },
   //px2rem: null,
   globalSass: '', //向全局sass样式传入共享的全局变量 如`@import "~@/assets/scss/index.scss";`

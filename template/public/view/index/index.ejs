@@ -65,7 +65,12 @@
   </head>
   <body>
     <div id="app"></div>
-
+    <% if(process.env.NODE_ENV !== "production") { %>
+    <script src="https://unpkg.com/vconsole/dist/vconsole.min.js"></script>
+    <script>
+      var vConsole = new window.VConsole();
+    </script>
+    <% } %>
     <!-- start 不要修改 -->
     <!-- built files will be auto injected 不要修改 -->
     <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
